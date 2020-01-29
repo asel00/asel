@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Oswald;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-4{
+    width: 33.33333%;
+    padding: 0 15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+#hero{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(64, 65, 73, 0.1), rgba(64, 65, 73, -0.9)),  fixed url("./images/fon.jpg"), #404149 no-repeat center/cover;
+}
+.hero-content{
+    width: 734px;
+    color: white;
+}
+.hero-content__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+.hero-content__description{
+    font-weight: 300;
+    text-align: center;
+}
+.container{
+    width: 1000px;
+    margin-left: 170px;
+}
+.box{
+    text-align: center;
+    background: #F7F7F7;
+    height: 200px;
+    margin-top: -100px;
+
+}
+.age_numeral{
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 40px;
+    color: #F7654A;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.age_year{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.age_description{
+    color: gray;
+}
+#project{
+    margin-top: 80px;
+
+}
+.project_about{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #404149;
+}
+.project_picture{
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.project_title{
+    position: relative;
+}
+.project_title:before{
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 6px;
+    background: #F7654A;
+    margin-top: -15px;
+}
+.project_description{
+    font-family: open sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+#message{
+    background: #F7654A;
+    color: white;
+    padding-left: 200px;
+    height: 180px;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+.message-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height:71px ;
+    letter-spacing: 0.02em;
+}
+.message-description{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
